@@ -1,5 +1,6 @@
 function thankyou(){
-    alert('Thank you for contacting us!')
+    alert('Thank you for contacting us!');
+    window.location.reload();
 }
 
 document.getElementById('btnReset').addEventListener('click', function() {
